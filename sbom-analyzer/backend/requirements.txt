@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pandas
+networkx
+packaging
+reportlab
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+bcrypt

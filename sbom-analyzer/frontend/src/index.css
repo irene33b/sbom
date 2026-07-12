@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-900 text-slate-100 font-body antialiased;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background: rgba(20,184,170,0.35);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #28324A;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B4863;
+}
+
+.mono-tabular {
+  font-variant-numeric: tabular-nums;
+}
